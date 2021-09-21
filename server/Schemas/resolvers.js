@@ -23,34 +23,34 @@ const resolvers = {
 
 //Mutation Start
   Mutation: {
-
+    
+        //Add User function
+        addUser: async (parent, args) => {
+            const user = await User.create(args);
+            const token = signToken(user);
+      
+            return { token, user };
+          },
+      
+//Login function
     login: async (parent, { email, password }) => {
       const user = await User.findOne({ email });
-
+      
       if (!user) {
         throw new AuthenticationError('Incorrect credentials');
       }
       
       const correctPw = await user.isCorrectPassword(password);
-
+      
       if (!correctPw) {
         throw new AuthenticationError('Incorrect credentials');
       }
-
+      
       const token = signToken(user);
       return { token, user };
     },
 
 
-
-    //Add User function
-    addUser: async (parent, args) => {
-        const user = await User.create(args);
-        const token = signToken(user);
-  
-        return { token, user };
-      },
-  
 
 
     //Save book , update user with selected book
@@ -68,7 +68,7 @@ const resolvers = {
       throw new AuthenticationError('You need to be logged in!')
     },
 
-    //Remove book function , isolate user, remove selected book from they're saved books
+    //Remove book function , isolate user, remove selected book from their saved books
     removeBook: async (parent, args, context) => {
       if (context.user) {
         const updatedUser = await User.findOneAndUpdate(
