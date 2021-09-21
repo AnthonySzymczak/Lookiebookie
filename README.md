@@ -33,12 +33,22 @@ WHEN I click on the Logout button
 THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button  
 
 
-Attack of the Screen Shots!
 
-Woah!
+## Attack of the Screen Shots!
+![2021-09-21](https://user-images.githubusercontent.com/81388435/134227349-67f1b5a7-c897-4b77-9c90-9952b5c2a694.png)
+![2021-09-21 (1)](https://user-images.githubusercontent.com/81388435/134227369-f0f2d3db-80e0-4fcd-8bf2-332bf3b1cd06.png)
 
+### Woah!!
+[2021-09-21 (2)](https://user-images.githubusercontent.com/81388435/134227375-8a2e04e5-184c-42fd-b653-cc4748713e4e.png)
+![2021-09-21 (3)](https://user-images.githubusercontent.com/81388435/134227419-7d018be5-6282-4e9c-a870-182139eeba67.png)
 
-Books!!
+### Books!!
 
+![2021-09-21 (4)](https://user-images.githubusercontent.com/81388435/134227428-be5dc8fd-74e8-4505-93ba-41316accdfa4.png)
+![2021-09-21 (5)](https://user-images.githubusercontent.com/81388435/134227436-e1070e51-b19a-4d28-bcad-b9f7bf07566a.png)
+### SAVE BOOKS!
+![2021-09-21 (6)](https://user-images.githubusercontent.com/81388435/134227604-a70eb607-9c25-413b-9203-fb953f63804e.png)
 
-More Books!!
+### Delete Books!!
+![2021-09-21 (7)](https://user-images.githubusercontent.com/81388435/134227614-5c2a6272-5b42-4446-850f-1052d4fdcfb6.png)
+![2021-09-21 (8)](https://user-images.githubusercontent.com/81388435/134227619-6ec76bb1-2e5e-4f26-a04f-53546b5a87c9.png)
